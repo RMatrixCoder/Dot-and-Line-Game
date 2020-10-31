@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#222222"
+              android:gravity="center"
+              android:orientation="vertical"
+              android:padding="40dip">
+
+  <Switch
+    android:id="@+id/chk_highPerformance"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Enable High Performance Game"
+    android:textColor="#ffffff"/>
+
+  <TextView
+    android:id="@+id/textView7"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="10dip"
+    android:text="High Performance Game,Will not render the Animations and you will save your power"
+    android:textColor="#ffffff"
+    />
+
+  <Switch
+    android:id="@+id/chk_enableSfx"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Enable Sound Effects"
+    android:textColor="#ffffff"/>
+
+  <Switch
+    android:id="@+id/chk_enableMusic"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Enable Music"
+    android:textColor="#ffffff"/>
+</LinearLayout>

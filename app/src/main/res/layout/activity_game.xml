@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="#222222"
+  android:orientation="vertical">
+
+
+  <com.example.mohammadrezaee.dotnboxes.GameView
+    android:id="@+id/gameView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"/>
+
+  <ImageButton
+    android:id="@+id/img_reset"
+    android:layout_width="48dip"
+    android:layout_height="48dip"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:background="@null"
+    app:srcCompat="@drawable/ic_autorenew_black_24dp"/>
+
+  <ImageButton
+    android:id="@+id/img_config"
+    android:layout_width="48dip"
+    android:layout_height="48dip"
+    android:layout_alignParentTop="true"
+    android:layout_toEndOf="@+id/img_reset"
+    android:layout_toRightOf="@+id/img_reset"
+    android:background="@null"
+    app:srcCompat="@drawable/ic_settings_black_24dp"/>
+
+</RelativeLayout>
